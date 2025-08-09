@@ -5,12 +5,19 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<!--//testing-->
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="com.enset.tp_javafx.service.ProductView"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.enset.tp_javafx.controller.ProductView"
-            prefHeight="400.0" prefWidth="600.0">
 
+<!--</AnchorPane>-->
+<VBox xmlns:fx="test1"> alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="com.enset.tp_javafx.service.ProductView"
+    prefHeight="400.0" prefWidth="600.0"
 
-</AnchorPane>
-<
+<Label fx:id="Test" />
+    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+</VBox>
